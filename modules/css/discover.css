@@ -1,0 +1,60 @@
+/* discover page */
+.discover{
+	position: relative;
+}
+.discover .discover-filters{
+	width: 400px;
+	float: left;
+	margin: 10px;
+}
+.discover .discover-filters .discover-filter{
+	margin-bottom: 10px;
+}
+.discover .discover-filters .discover-filter-header{
+	font-size: 18px;
+}
+.discover .discover-filters .discover-filter .discover-filter-checkbox{
+	margin-right: 10px;
+	display: inline-block;
+}
+.discover .discover-filters .discover-filter .discover-filter-checkbox input{
+	margin-right: 3px;
+}
+.discover .discover-results{
+	margin-left: 420px;
+	-webkit-transition: opacity 0.5s;
+}
+.discover .discover-results:after{
+	display: block;
+	height: 1px;
+	overflow: none;
+	clear: left;
+}
+.discover .discover-result-item{
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin: 0 0 5px 5px;
+}
+.discover .discover-results.loading{
+	opacity: 0.3;
+}
+.discover .discover-loader{
+	background: url(images/loader.gif) center center no-repeat;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	left: 50%;
+	margin-left: 102px;
+	top: 100px;
+}
+.discover-printout-has_primary_image{
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+	background: #e5f5e5  no-repeat center center;
+	float: left;
+	margin: 0 3px 3px 0;
+}
